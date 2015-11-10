@@ -43,3 +43,11 @@ It can be seen that although 6441st packet is retransmitted because of CRC error
 The flow chart of the algorithm to determine the errors is in Figure 3.9. The algorithm is composed of two parts. First, it detects the packets that are missed by the sniffer. The program inserts the missing packets by filling the SN and NESN values. The next part determines the errors and lost packets. The algorithm is generated based on Bluetooth Version.4 core specification. The rules in figure 3.10 are applied to detect errors and lost packets. 
 
 ![alt tag](http://i.imgur.com/DHbcdYt.png?1)
+
+# How to use?
+
+Just change the input file name at sniffer_with_role.m at line 4 and run it!
+
+% PSD Input File Name
+filename='loc1.psd';
+
